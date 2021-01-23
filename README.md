@@ -1,7 +1,7 @@
-##GO SSH DB Connect
+#GO SSH DB Connect
 
 
-##Connection
+#Connection
 ```
 //Enter Server Details
 sshHost := "" // SSH Server Hostname/IP
@@ -14,13 +14,13 @@ sshHost := "" // SSH Server Hostname/IP
 	dbName := ""  // Database name
   ```
   
-  ##Add dependency
+  #Add dependency
  
  ```
   go mod init 
   ```
  
- ##Serve
+ #Serve
  
  ```
  go run main.go
